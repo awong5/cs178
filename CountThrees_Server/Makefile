@@ -49,7 +49,7 @@ test :
 	mkdir -p $(TESTDIR)
 	mv ServerCountThrees $(TESTDIR)
 	unzip -u threesData.zip -d $(TESTDIR)
-	cd $(TESTDIR) && BUILD_ID=dontKillMe nohup ./ServerCountThrees &
+	cd $(TESTDIR) && ./ServerCountThrees&
 
 # remove files, directories create during make and make test 
 # -rm to ignore errors, such as missing files
