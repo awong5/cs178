@@ -40,7 +40,7 @@ public class ServletCountThrees extends HttpServlet {
 		if (session.isNew()) {
 			count++;
 		}
-		out.println("ServletCountThrees has been accessed " + count + " times. There are "+threesCount+"3s");
+		out.println("ServletCountThrees has been accessed " + count + " times. There are "+threesCount+" 3s.");
 	}
 
 	@Override
